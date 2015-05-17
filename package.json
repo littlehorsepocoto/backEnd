@@ -1,0 +1,34 @@
+{
+  "name": "backEnd",
+  "version": "0.1.0",
+  "description": "Backend for Strava Activity comparator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littlehorsepocoto/backEnd.git"
+  },
+  "keywords": [
+    "strava"
+  ],
+  "author": "Marcus David Bronstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlehorsepocoto/backEnd/issues"
+  },
+  "homepage": "https://github.com/littlehorsepocoto/backEnd",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-util": "^3.0.4",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongo": "^0.1.0"
+  }
+}
